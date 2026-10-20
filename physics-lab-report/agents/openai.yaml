@@ -1,0 +1,4 @@
+interface:
+  display_name: "物理实验报告"
+  short_description: "按课程要求撰写和检查物理实验报告，规范摘要、三线表、公式、图注与 PDF 提交"
+  default_prompt: "使用 $physics-lab-report，根据我的实验讲义和真实数据撰写或检查报告，逐项核对课程要求。"
