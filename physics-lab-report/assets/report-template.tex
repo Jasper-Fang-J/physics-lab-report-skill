@@ -1,0 +1,43 @@
+% 编译器：XeLaTeX。以下字号、页边距、章节为可改默认值。
+\documentclass[UTF8,a4paper,zihao=-4]{ctexart}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb,booktabs,graphicx,caption,float,setspace,ragged2e}
+\setstretch{1.3}
+\captionsetup[figure]{position=bottom}
+\captionsetup[table]{position=top}
+\newcommand{\pending}[1]{\textbf{【待补：#1】}}
+\title{\pending{实验名称}实验报告}
+\author{\pending{姓名、学号}}
+\date{\pending{实验日期}}
+\begin{document}
+\maketitle
+\justifying
+\begin{abstract}
+\justifying
+\pending{目的、方法、真实核心结果和结论。无数据时不填写测量结果。}
+\end{abstract}
+\section{实验目的与原理}
+\pending{物理关系、适用条件、必要公式及符号定义。用 equation 环境居中并自动编号，用 label 和 eqref 引用。}
+\section{仪器与方法}
+\pending{实际仪器、精度、实验条件和操作。}
+\section{数据与结果}
+\begin{table}[htbp]
+\centering
+\caption{原始测量记录（待补真实数据）}
+\label{tab:raw}
+\begin{tabular}{ccc}
+\toprule
+序号 & \pending{物理量/单位} & \pending{物理量/单位} \\
+\midrule
+\pending{记录} & \pending{数据} & \pending{数据} \\
+\bottomrule
+\end{tabular}
+\end{table}
+\pending{说明数据处理方法、结果及有依据的不确定度。}
+% 使用 figure 环境时先 includegraphics 后 caption，配合 [H] 等控制图注同页。
+% 坐标轴必须含量和单位。没有实际数据图时不要插入占位图片。
+\section{讨论与思考题}
+\pending{根据实际数据讨论误差和改进，并回答讲义问题。}
+\section{结论}
+\pending{与摘要、图表一致的主要结果及结论。}
+\end{document}
